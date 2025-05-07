@@ -35,7 +35,7 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "eJournal API", Version = "v1" });
     c.AddSecurityDefinition("X-UserId", new OpenApiSecurityScheme
     {
-        Name = "X-UserId",
+        Name = "UserId",
         In = ParameterLocation.Header,
         Type = SecuritySchemeType.ApiKey,
         Description = "ID текущего пользователя"
@@ -45,13 +45,13 @@ builder.Services.AddSwaggerGen(c =>
         {
             new OpenApiSecurityScheme
             {
-                Name = "X-UserId",
+                Name = "UserId",
                 In = ParameterLocation.Header,
                 Type = SecuritySchemeType.ApiKey,
                 Reference = new OpenApiReference
                 {
                     Type = ReferenceType.SecurityScheme,
-                    Id = "X-UserId"
+                    Id = "UserId"
                 }
             },
             new string[] { }
