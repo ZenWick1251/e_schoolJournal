@@ -1,0 +1,6 @@
+@e_journal_HostAddress = http://localhost:5216
+
+GET {{e_journal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
