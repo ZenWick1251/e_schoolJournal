@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace e_journal.Services;
 
-    public class TeacherService : ITeacherInterface 
+    public class TeacherService : ITeacherService 
     {
         private readonly JournalDbContext _context;
         private readonly IMapper _mapper;

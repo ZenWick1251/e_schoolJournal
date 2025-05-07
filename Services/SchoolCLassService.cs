@@ -5,12 +5,13 @@ using System.Threading.Tasks;
 using AutoMapper;
 using e_journal.Data;
 using e_journal.DTOs;
+using e_journal.Interfaces;
 using e_journal.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace e_journal.Services;
 
-    public class SchoolCLassService
+    public class SchoolCLassService : ISchoolClassService
     {
         private readonly JournalDbContext _context;
         private readonly IMapper _mapper;

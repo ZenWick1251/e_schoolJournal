@@ -169,3 +169,4 @@ C:\Users\CP\Desktop\e_journal\obj\Debug\net8.0\refint\e-journal.dll
 C:\Users\CP\Desktop\e_journal\obj\Debug\net8.0\e-journal.pdb
 C:\Users\CP\Desktop\e_journal\obj\Debug\net8.0\e-journal.genruntimeconfig.cache
 C:\Users\CP\Desktop\e_journal\obj\Debug\net8.0\ref\e-journal.dll
+c:\Users\CP\Desktop\e_journal\obj\Debug\net8.0\e-journal.sourcelink.json

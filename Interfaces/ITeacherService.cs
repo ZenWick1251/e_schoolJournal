@@ -7,7 +7,7 @@ using e_journal.Models;
 
 namespace e_journal.Interfaces;
 
-    public interface ITeacherInterface
+    public interface ITeacherService
     {
         Task<TeacherDto> CreateTeacherAsync(TeacherDto dto, User requester);
         Task<IEnumerable<TeacherDto>> GetAllTeachersAsync(User requester);

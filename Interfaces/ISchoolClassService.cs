@@ -7,7 +7,7 @@ using e_journal.Models;
 
 namespace e_journal.Interfaces;
 
-    public interface ISchoolClassesService
+    public interface ISchoolClassService
     {
         Task<SchoolClassDto> CreateClassAsync(SchoolClassDto dto, User requester);
         Task<IEnumerable<SchoolClassDto>> GetAllClassesAsync(User requester);

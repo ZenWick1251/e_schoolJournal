@@ -13,4 +13,6 @@ namespace e_journal.DTOs;
         public string LastName { get; set; } = null!;
         public DateTime DateOfBirth { get; set; }
         public int SchoolClassId { get; set; }
+
+        public string ClassName { get; set; } = null!;
     }
