@@ -33,7 +33,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "eJournal API", Version = "v1" });
-    c.AddSecurityDefinition("X-UserId", new OpenApiSecurityScheme
+    c.AddSecurityDefinition("UserId", new OpenApiSecurityScheme
     {
         Name = "UserId",
         In = ParameterLocation.Header,
